@@ -10,6 +10,7 @@ ENV MIX_ENV=test
 WORKDIR /tmp/
 
 RUN apk update && apk add \
+    bash \
     curl \
     make \
     ncurses-terminfo-base \
