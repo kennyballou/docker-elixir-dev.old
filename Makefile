@@ -1,4 +1,4 @@
-TAG=kennyballou/elixir-dev
+TAG=kennyballou/docker-elixir-dev
 all: build
 .PHONY: all
 
