@@ -57,4 +57,5 @@ RUN set -x \
     && rm -rf elixir-"$ELIXIR_VER"
 
 RUN mix local.hex --force \
-    && mix hex.info
+    && mix hex.info \
+    && mix local.rebar
