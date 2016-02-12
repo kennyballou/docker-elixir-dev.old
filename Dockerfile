@@ -14,6 +14,7 @@ RUN apk update && apk add \
     curl \
     make \
     gcc \
+    musl-dev \
     ncurses-terminfo-base \
     ncurses-terminfo \
     ncurses-libs \
