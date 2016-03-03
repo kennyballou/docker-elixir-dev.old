@@ -1,6 +1,6 @@
 TAG=kennyballou/docker-elixir-dev
 all: build
-.PHONY: all
+.PHONY: all clean
 
 build: Dockerfile
 	@docker build -t ${TAG} .
