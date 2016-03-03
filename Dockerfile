@@ -34,7 +34,6 @@ RUN apk update && apk add \
     erlang-gs \
     erlang-hipe \
     erlang-inets \
-    erlang-inets \
     erlang-kernel \
     erlang-mnesia \
     erlang-observer \
