@@ -21,6 +21,7 @@ RUN apk update && apk add \
     libedit \
     libpq \
     postgresql-client \
+    mysql-client \
     erlang-asn1 \
     erlang-common-test \
     erlang-compiler \
