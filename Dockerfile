@@ -58,6 +58,7 @@ RUN set -x \
     && rm -f elixir.tar.gz \
     && rm -rf elixir-"$ELIXIR_VER"
 
-RUN mix local.hex --force \
+RUN set -x \
+    && mix local.hex --force \
     && mix hex.info \
     && mix local.rebar
